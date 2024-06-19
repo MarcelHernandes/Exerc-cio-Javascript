@@ -1,0 +1,26 @@
+body{
+    background-color: #fff; /* Cor do plano de fundo */
+    color:rgb(0, 0, 0); /* Cor da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 0; /* Não tenho margem em relação a tela */
+    background-image: url("../IMAGEM/Biblioteca-Fundo-Oficial.jpg");
+    background-repeat: repeat;
+}
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+}/* Seletor do Cabeçalho */
+
+.botoesMenu, li{
+    color: #fff;
+    list-style-type: none;/* Remover as bolinhas de tópicos */
+    display: inline; /* Tranformar coluna em linha */
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+
+label{
+    text-align: center;
+}
