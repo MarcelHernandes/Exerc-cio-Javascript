@@ -20,6 +20,7 @@ function exercicioSete(){
         {
             media = "Reprovado em uma duas disciplinas";
         }
+        media = "Reprovado nas duas disciplinas";
     }
     document.getElementById("resultado").innerHTML = media;
 }
